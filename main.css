@@ -42,9 +42,9 @@ html{
 }
 
 .navbar ul li a:hover{
-    background-color: gray;
-    color: whitesmoke;
-    box-shadow: 0 0 10px black;
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 10px gray;
     border-radius: 20px;
 }
 
@@ -128,7 +128,7 @@ html{
 }
 
 #project{
-    margin: 5% 10%;
+    margin: 10%;
 }
 
 h2{
@@ -156,7 +156,11 @@ ul.images {
   ul.images li {
     display: inline;
   }
-
+.pdflink {
+    text-decoration: none;
+    color: purple;
+    transition: all .5s ease;
+}
 /* Professional */
 /*
 #professional{
